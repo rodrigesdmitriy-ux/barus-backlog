@@ -164,8 +164,8 @@
   "subcategory": "Для труб большого диаметра (50 - 730 мм)",
   "series": "TL-серия",
   "product": "HSG TL730<br>TL730-20000",
-  "problem": "Десять характеристик в столбце TL730-20000 совпадают с TL660 и отличаются от TL730-12000:<ul><li>диаметр обработки круглой трубы: 80 - 660 (у TL730-12000: 120 - 715);</li><li>диагональ сечения квадратной трубы: 80 - 450 (120–500);</li><li>диагональ сечения прямоугольной трубы: 80 - 660 (120–500);</li><li>диапазон обработки уголка: 80 x 80 - 250 x 250 (120×120–500×500);</li><li>max загрузка в автоподачу: 3000 (4000);</li><li>ход по оси Y: 680 (730);</li><li>ход по оси Z: 600 (730);</li><li>линейные направляющие: DTX/Lapping/CJ (HIWIN / DTX / LAPPING);</li><li>электроника: Eaton/Noark/Tayee (EATON / SCHNEIDER / NOARK / WEIDMULLER);</li><li>габариты с автоподачей: 30000 x 6000 x 5000 (30000 x 6500 x 5000).</li></ul>Модели TL730 нет в листе «Модельный ряд».",
-  "status": "Ждём проверку",
+  "problem": "Десять характеристик в столбце TL730-20000 совпадали с TL660 и отличались от TL730-12000:<ul><li>диаметр обработки круглой трубы: 80 - 660 (у TL730-12000: 120 - 715);</li><li>диагональ сечения квадратной трубы: 80 - 450 (120–500);</li><li>диагональ сечения прямоугольной трубы: 80 - 660 (120–500);</li><li>диапазон обработки уголка: 80 x 80 - 250 x 250 (120×120–500×500);</li><li>max загрузка в автоподачу: 3000 (4000);</li><li>ход по оси Y: 680 (730);</li><li>ход по оси Z: 600 (730);</li><li>линейные направляющие: DTX/Lapping/CJ (HIWIN / DTX / LAPPING);</li><li>электроника: Eaton/Noark/Tayee (EATON / SCHNEIDER / NOARK / WEIDMULLER);</li><li>габариты с автоподачей: 30000 x 6000 x 5000 (30000 x 6500 x 5000).</li></ul>У производителя HSG для TL730S один набор характеристик на все мощности от 6 до 20 кВт: круглая труба Φ120–715 мм, квадратная □120–500 мм, масса одной трубы 4000 кг. Поэтому для 20 кВт на сайт идут значения из столбца TL730-12000. Подтвердите или пришлите верные значения.<br>У производителя модель называется TL730S, в листе «Модельный ряд» TL730 нет.",
+  "status": "Ждём подтверждения",
   "kind": "open",
   "category_url": "/catalog/machines/lazernye_stanki_dlya_rezki_trub/",
   "subcategory_url": "/catalog/machines/lazernye_stanki_dlya_rezki_trub/dlya-trub-bolshogo-diametra/",
@@ -236,5 +236,31 @@
   "category_url": "/catalog/machines/lazernye_stanki/",
   "subcategory_url": "/catalog/machines/lazernye_stanki/dlya-profiley/",
   "series_url": "/catalog/machines/lazernye_stanki/dlya-profiley/prb-seriya/"
+ },
+ {
+  "id": 19,
+  "category": "Станки лазерной резки труб",
+  "subcategory": "все подкатегории",
+  "series": "",
+  "product": "Все модели",
+  "problem": "Единицы измерения в названиях характеристик:<ul><li>«Max загрузка в автоподачу, мм»: у TL660 3000, у TL730 4000, у производителя это масса одной трубы в килограммах;</li><li>«Max масса одной трубы, кг/м²»: у TL730 333, по смыслу это килограммы на метр (333 кг/м × 12 м ≈ 4000 кг).</li></ul>Проверьте единицы: на сайте они входят в названия характеристик.",
+  "status": "Вопрос",
+  "kind": "open",
+  "category_url": "/catalog/machines/lazernye_stanki_dlya_rezki_trub/",
+  "subcategory_url": "",
+  "series_url": ""
+ },
+ {
+  "id": 20,
+  "category": "Станки лазерной резки труб",
+  "subcategory": "Для труб большого диаметра (50 - 730 мм)",
+  "series": "TL-серия",
+  "category_url": "/catalog/machines/lazernye_stanki_dlya_rezki_trub/",
+  "subcategory_url": "/catalog/machines/lazernye_stanki_dlya_rezki_trub/dlya-trub-bolshogo-diametra/",
+  "series_url": "/catalog/machines/lazernye_stanki_dlya_rezki_trub/dlya-trub-bolshogo-diametra/tl-seriya/",
+  "product": "HSG TL730<br>TL730-12000, TL730-20000",
+  "problem": "Габариты с автоподачей: в таблице 30000 × 6500 × 5000 мм, у производителя с полуавтоматической загрузкой 38000 × 6500 × 5000 мм. Проверьте длину.",
+  "status": "Ждём проверку",
+  "kind": "open"
  }
 ]
