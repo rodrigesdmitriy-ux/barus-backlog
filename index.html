@@ -8,20 +8,34 @@ body{margin:0;background:#f4f6f8;font:15px/1.6 Montserrat,Tahoma,sans-serif;colo
 .wrap{max-width:1100px;margin:0 auto;padding:32px 40px 64px;background:#fff}
 h1{font-family:'Russo One',Montserrat,sans-serif;font-weight:400;font-size:28px;border-bottom:3px solid #42c1c7;padding-bottom:12px;margin:0 0 8px}
 .lead{margin:0 0 4px}.upd{color:#5b6570;font-size:13px;margin:0 0 20px}
-.scroll{overflow-x:auto}
-table{border-collapse:collapse;width:100%;font-size:14px;min-width:760px}
+table{border-collapse:collapse;width:100%;font-size:14px}
 th{background:#232323;color:#fff;text-align:left;padding:9px 10px;font-weight:600}
+th:nth-child(1){width:3%}th:nth-child(2){width:22%}th:nth-child(3){width:18%}th:nth-child(5){width:13%}
 td{padding:8px 10px;border-bottom:1px solid #e3e7ec;vertical-align:top}
 tr:nth-child(even) td{background:#f7f9fb}
 td ul{margin:4px 0 0;padding-left:18px}li{margin:2px 0}
-.st{white-space:nowrap;font-weight:600}.open{color:#b3541e}.done{color:#0e6d73}
-@media(max-width:700px){.wrap{padding:20px 16px 40px}h1{font-size:22px}}
+.st{font-weight:600}.open{color:#b3541e}.done{color:#0e6d73}
+@media(max-width:700px){
+.wrap{padding:20px 16px 40px}h1{font-size:22px}
+thead{display:none}
+table,tbody,tr,td{display:block;width:auto}
+tr{border:1px solid #e3e7ec;border-radius:6px;margin:0 0 14px;padding:6px 12px}
+tr:nth-child(even) td{background:none}
+td{border:0;padding:4px 0}
+td:nth-child(1){font-weight:600;color:#0e6d73}
+td:nth-child(1)::before{content:"№ "}
+td:nth-child(n+2)::before{display:block;font-size:12px;color:#5b6570;font-weight:600}
+td:nth-child(2)::before{content:"Категория, подкатегория"}
+td:nth-child(3)::before{content:"Товар и артикулы"}
+td:nth-child(4)::before{content:"Что не так"}
+td:nth-child(5)::before{content:"Статус"}
+}
 @media print{body{background:#fff}.wrap{padding:0}tr{break-inside:avoid}}
 </style></head><body><div class="wrap">
 <h1>Каталог оборудования: недостающие данные и вопросы</h1>
 <p class="lead">Что нужно дополнить или проверить в таблице оборудования, чтобы карточки на сайте были полными.</p>
 <p class="upd">Обновлено 24.09.2026</p>
-<div class="scroll"><table>
+<table>
 <thead><tr><th>№</th><th>Категория, подкатегория</th><th>Товар и артикулы</th><th>Что не так</th><th>Статус</th></tr></thead>
 <tbody>
 <tr><td>1</td><td>Станки лазерной резки труб; подкатегория не указана</td><td>HSG D90/R9<br>D90/R9-1500, D90/R9-3000</td><td><ul>
@@ -46,5 +60,5 @@ td ul{margin:4px 0 0;padding-left:18px}li{margin:2px 0}
 Модели TL730 нет в листе «Модельный ряд».</td><td class="st open">Ждём проверку</td></tr>
 <tr><td>4</td><td>Станки лазерной резки труб; Для труб малого диаметра (8-273 мм); R1, R2, B9, T2, TS2-серии</td><td>HSG R2-6PRO<br>R2-6PRO-3000, R2-6PRO-6000</td><td>Нет фото: в строке «Фото» нет ссылки на папку.</td><td class="st open">Ждём фото</td></tr>
 <tr><td>5</td><td>Станки лазерной резки труб; все подкатегории</td><td>Все модели</td><td>Опечатка в названии характеристики «Диапазон обработки уголока, мм». На сайте будет «Диапазон обработки уголка, мм», в таблице стоит поправить.</td><td class="st done">Исправляем при загрузке</td></tr>
-</tbody></table></div>
+</tbody></table>
 </div></body></html>
